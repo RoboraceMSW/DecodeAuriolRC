@@ -1,26 +1,25 @@
-## DecodeBaltimoreRC
-Decodes IR Remote Control HX1838 codes for each button:
+## DecodeAuriolRC
+Decodes IR Remote Control Auriol codes for each button:
 
 <img src="./baltimore_RC.jpeg"  width="20%" height="20%" align="left" alt="HX1838 IR remote control"/>
 
 
 |   |   |   |
 |---|---|---|
-| **A1**  [&nbsp;&nbsp;23]| **B1** [n/a] | **C1**  [&nbsp;&nbsp;63]|
-| **A2**  [&nbsp;4]| **B2**  [&nbsp;6]| **C2**  [&nbsp;&nbsp;31]|
-| **A3**  [&nbsp;&nbsp;8]| **B3** [&nbsp;&nbsp;10]| **C3**  [&nbsp;&nbsp;47]|
-| **A4*** [&nbsp;&nbsp;12]|  **B4**  [&nbsp;14]| **C4**  [&nbsp;15]|
-|     **A5** [&nbsp;16]| **B5** [&nbsp;&nbsp;17]| **C5** [&nbsp;55]     |
-| **A6** [&nbsp;&nbsp;20]|  **B6**  [&nbsp;21]| **C6**  [&nbsp;22]|
-|     **A7** [n/a]| **B7** [n/a]| **C7** [n/a]    | 
+| **A1**  [&nbsp;&nbsp;93]| **B1** [157] | **C1**  [&nbsp;&nbsp;29]|
+| **A2**  [&nbsp;221]| **B2**  [&nbsp;253]| **C2**  [&nbsp;&nbsp;61]|
+| **A3**  [&nbsp;&nbsp;31]| **B3** [&nbsp;&nbsp;21]| **C3**  [&nbsp;&nbsp;9]|
+| **A4*** [&nbsp;&nbsp;22]|  **B4**  [&nbsp;25]| **C4**  [&nbsp;13]|
+|     **A5** [&nbsp;12]| **B5** [&nbsp;&nbsp;24]| **C5** [&nbsp;133]     |
+| **A6** [&nbsp;&nbsp;8]|  **B6**  [&nbsp;199]| **C6**  [&nbsp;165]|
+|     **A7** [189| **B7** [181]| **C7** [173]    | 
 <br clear="left"/>
 <br/>
 [n/a] : button does not exist; empty spot in button matrix
 <br/>
 
 ## additional information
-* Packaged with Baltimore 5000lumen, 50W LED floodlight with motions sensor<br/>
-( ZD Trading Model No: 3005472 )
+* Packaged with [Auriol LED clock with alarm](https://www.lidl.nl/p/auriol-led-klok-met-wekker/p100391320)<br/>
 * IR button codes decoded with [ShowRawIRCode](../ShowRawIRCode)
 * Added to [RemoteControlMapping](https://github.com/RoboraceMSW/RemoteControlMapping/)
 
