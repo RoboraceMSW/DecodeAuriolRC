@@ -1,7 +1,7 @@
 ## DecodeAuriolRC
 Decodes IR Remote Control Auriol codes for each button:
 
-<img src="./auriol_rc_nbg.png"  width="20%" height="20%" align="left" alt="Auriol IR remote control"/>
+<img src="./auriol_rc_new_nbg.png"  width="20%" height="20%" align="left" alt="Auriol IR remote control"/>
 
 
 |   |   |   |
